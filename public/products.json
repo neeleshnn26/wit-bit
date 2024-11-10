@@ -1,0 +1,88 @@
+{
+  
+    "products": [
+      {
+        "name": "Nike Air Jordan",
+        "category": "Shoes",
+        "brand": "Nike",
+        "image": "https://res.cloudinary.com/dviwzny3v/image/upload/v1731088991/coyvfeonvwf0kaxuylw6.jpg",
+        "variants": [
+          {
+            "name": "Size",
+            "values": ["7", "8", "9", "10"]
+          },
+          {
+            "name": "Color",
+            "values": ["Black", "White", "Red"]
+          }
+        ],
+        "combinations": [
+          {
+            "name": "7/Black",
+            "sku": "NJ7B",
+            "quantity": 5,
+            "inStock": true
+          },
+          {
+            "name": "9/White",
+            "sku": "NJ9W",
+            "quantity": 3,
+            "inStock": false
+          }
+        ],
+        "price": 12000,
+        "discount": {
+          "method": "pct",
+          "value": 10
+        }
+      },
+      {
+        "name": "Nike Dunk Low",
+        "category": "Shoes",
+        "brand": "Nike",
+        "image": "https://res.cloudinary.com/dviwzny3v/image/upload/v1731094062/mzgm9bdy3cyclfhnppzb.jpg",
+        "variants": [
+          {
+            "name": "Size",
+            "values": ["6", "7", "8", "9", "10"]
+          },
+          {
+            "name": "Color",
+            "values": ["Black", "Blue", "Grey"]
+          }
+        ],
+        "combinations": [
+          {
+            "name": "6/Blue",
+            "sku": "AU6B",
+            "quantity": 7,
+            "inStock": true
+          },
+          {
+            "name": "10/Grey",
+            "sku": "AU10G",
+            "quantity": 4,
+            "inStock": true
+          }
+        ],
+        "price": 8000,
+        "discount": {
+          "method": "amt",
+          "value": 500
+        }
+      }
+    ]
+  
+  ,
+    "categories": [
+      {
+        "id": "abc",
+        "name": "Shoes"
+      },
+      {
+        "id": "xyz",
+        "name": "T-shirt"
+      }
+    ]
+  }
+  
